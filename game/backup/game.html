@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Gears of War memory game</title>
+	<meta name="author" content="SoulRvr"/>
+	<meta name="description" content="memory game in gears of war setting"/>
+	<meta name="keywords" content="gears of war, memory, game"/>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="gameStyle.css"/>
+	<link rel="stylesheet" href="css/fontello.css"/>
+	<script src="../jquery-3.6.3.min.js"></script>
+	<script src="gameScript.js"></script>
+	
+	<link rel="shortcut icon" href="images/icon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	
+	<header>
+		<h1>Gears of War</h1>
+		<div id="quit" title="go back to the site"><a href="../index.html"><i class="icon-reply-1"></i></a></div>
+		<div id="reload" title="restart"><a href="game.html"><i class="icon-cw-1"></i></a></div>
+		<div id="sound" title="sounds On/Off"><i class="icon-volume-off-1"></i></div>
+		
+		<p id="p1">memory game</p>
+		<div class="sizeSet" title="20 tiles" style="margin-right: 30px;"><a href="game3.html">20</a></div>
+		<div class="sizeSet" title="16 tiles"><a href="game2.html">16</a></div>
+		<div class="sizeSetActive" title="12 tiles">12</div>	
+	</header>
+	<main>
+		<article>
+			<div id="board" style="width:600px;">	
+				<div style="clear: both;"></div>
+				<div id="score">Turn counter: 0</div>
+			</div>
+			
+			<div id="endScreen">
+				Congratulations! <br> You won in 0 turns.
+			</div>
+			
+			<div id="restart">
+				<a href='game.html'>Try again? </a>
+			</div>
+			
+		</article>
+	</main>
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Gears of War Cinematics</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Gears of War cinematics created in Unreal Editor"
+    />
+    <meta
+      name="keywords"
+      content="gears of war, cinematic, video, unreal, editor, gow"
+    />
+    <meta name="author" content="SoulRvr" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/icon.png" />
+    <link id="style_location" rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/fontello.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <img src="images/logoOmen.png" alt="logo" />
+        <div id="logotxt">Gears of War Cinematics</div>
+      </header>
+
+      <nav>
+        <div class="icon">
+          <a href="index.html" title="home"><i class="icon-home"></i></a>
+        </div>
+        <hr class="menu_line" />
+        <ol>
+          <li>
+            <a href="cinematics.html">Cinematics</a>
+          </li>
+          <li>
+            <a href="playable_levels.html">Playable Levels</a>
+          </li>
+          <li>
+            <a href="test_levels.html">Test Levels</a>
+          </li>
+          <li>
+            <a href="editor.html">Editor</a>
+          </li>
+          <li>
+            <a href="game/game.html">Mini game</a>
+          </li>
+        </ol>
+        <div class="icon">
+          <a href="#" title="color scheme" onclick="mode()"
+            ><i class="icon-adjust"></i
+          ></a>
+        </div>
+      </nav>
+
+      <main>
+        <div class="title">
+          Welcome on the site.<br />
+          The latest and greatest video is here:
+        </div>
+        <div id="content_video">
+          <iframe
+            class="video"
+            src="https://www.youtube.com/embed/ylp4L6g2MOw"
+            title="Gears of War: Night Fight"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <p>
+            This video was created in the Unreal Editor for the first Gears of
+            War game. All objects, characters and animations are from the
+            original game. The character's movement and animations were set in
+            the Matinee editor, built into the Unreal Editor. It took me over a
+            100 hours to set up, and refine all the scenes for such a video.
+            After ripping the image from the finished scenes, I edited it in
+            Corel Video Studio. At the very end, I added a little postprocess in
+            Adobe After Effects.
+          </p>
+        </div>
+      </main>
+
+      <div id="sidebar_title">Videos from the latest:</div>
+      <aside>
+        <div class="thumbial" onclick="p_levels(5)">
+          <img src="images/p7.jpg" alt="p7" />
+          <h2>City of Destruction - walkthrough</h2>
+        </div>
+        <div class="thumbial" onclick="gameplay(3)">
+          <img src="images/g3.jpg" alt="g3" />
+          <h2>Gears 5 - Horde gameplay #2 PC</h2>
+        </div>
+        <div class="thumbial" onclick="gameplay(2)">
+          <img src="images/g2.jpg" alt="g2" />
+          <h2>Gears 5 - Horde gameplay #1 PC</h2>
+        </div>
+        <div class="thumbial" onclick="cinematics(6)">
+          <img src="images/c6.jpg" alt="c6" />
+          <h2>Night Fight - cinematic</h2>
+        </div>
+        <div class="thumbial" onclick="gameplay(1)">
+          <img src="images/g1.jpg" alt="g1" />
+          <h2>Gears 4 - versus gameplay Xbox One</h2>
+        </div>
+        <div class="thumbial" onclick="cinematics(5)">
+          <img src="images/c5.jpg" alt="c5" />
+          <h2>Sniper Elite - cinematic</h2>
+        </div>
+        <div class="thumbial" onclick="trailer(2)">
+          <img src="images/ChannelTrailer.jpg" alt="tr2" />
+          <h2>Youtube channel - trailer</h2>
+        </div>
+        <div class="thumbial" onclick="p_levels(4)">
+          <img src="images/p6.jpg" alt="p6" />
+          <h2>Timgad Barricade - gameplay</h2>
+        </div>
+        <div class="thumbial" onclick="p_levels(3)">
+          <img src="images/p5.jpg" alt="p5" />
+          <h2>Unfinished level - gameplay</h2>
+        </div>
+        <div class="thumbial" onclick="t_levels(3)">
+          <img src="images/t3.jpg" alt="t3" />
+          <h2>Test maps - part 2</h2>
+        </div>
+        <div class="thumbial" onclick="t_levels(2)">
+          <img src="images/t2.jpg" alt="t2" />
+          <h2>Test maps - part 1</h2>
+        </div>
+        <div class="thumbial" onclick="cinematics(4)">
+          <img src="images/c4.jpg" alt="c4" />
+          <h2>Rivers - cinematic</h2>
+        </div>
+        <div class="thumbial" onclick="p_levels(2)">
+          <img src="images/p3.jpg" alt="p3" />
+          <h2>Mars - cinematic</h2>
+        </div>
+        <div class="thumbial" onclick="p_levels(1)">
+          <img src="images/p2.jpg" alt="p2" />
+          <h2>Train - cinematic</h2>
+        </div>
+        <div class="thumbial" onclick="t_levels(1)">
+          <img src="images/t1.jpg" alt="t1" />
+          <h2>Moon - test level</h2>
+        </div>
+        <div class="thumbial" onclick="cinematics(3)">
+          <img src="images/c3.jpg" alt="c3" />
+          <h2>Anthony Carmine - cinematic</h2>
+        </div>
+        <div class="thumbial" onclick="cinematics(2)">
+          <img src="images/c2.jpg" alt="c2" />
+          <h2>Fight in the desert - cinematic</h2>
+        </div>
+        <div class="thumbial" onclick="cinematics(1)">
+          <img src="images/c1.jpg" alt="c1" />
+          <h2>Unlucky Carmine - cinematic</h2>
+        </div>
+        <div class="thumbial" onclick="trailer(1)">
+          <img src="images/CoD_trailer.jpg" alt="tr1" />
+          <h2>City of destruction - trailer</h2>
+        </div>
+      </aside>
+
+      <footer>
+        Site created by SoulRvr.
+        <!-- &copy; All rights reserved.  -->
+        <a href="mailto:soulrvr360@gmail.com"> soulrvr360@gmail.com</a>
+      </footer>
+    </div>
+  </body>
+</html>

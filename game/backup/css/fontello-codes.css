@@ -1,0 +1,7 @@
+
+.icon-volume-low:before { content: '\e800'; } /* '' */
+.icon-volume-middle:before { content: '\e801'; } /* '' */
+.icon-volume-off-1:before { content: '\e802'; } /* '' */
+.icon-volume-high:before { content: '\e803'; } /* '' */
+.icon-reply-1:before { content: '\e804'; } /* '' */
+.icon-cw-1:before { content: '\e805'; } /* '' */

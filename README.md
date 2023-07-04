@@ -11,4 +11,4 @@ A page about the cinematics I made in the unreal editor for the first Gears of W
 ![](./screenshot.jpeg)
 
 ![](./screenshot-mobile1.jpeg)
-![](./screenshot-mobile2.jpeg)
+![](./Screenshot-mobile2.jpeg)

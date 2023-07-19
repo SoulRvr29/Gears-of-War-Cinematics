@@ -4,7 +4,7 @@ A page about the cinematics I made in the unreal editor for the first Gears of W
 
 ## Link
 
-- Site URL: [https://soulrvr29.github.io/Gears-of-War-Cinematics/](https://soulrvr29.github.io/Gears-of-War-Cinematics/)
+- Link to site: [https://soulrvr29.github.io/Gears-of-War-Cinematics/](https://soulrvr29.github.io/Gears-of-War-Cinematics/)
 
 ## Screenshots
 
